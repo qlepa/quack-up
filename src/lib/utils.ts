@@ -18,7 +18,7 @@ export function isValidMessage(message: string): boolean {
   return message.trim().length > 0 && message.trim().length <= 1000;
 }
 
-export function debounce<T extends (...args: any[]) => any>(
+export function debounce<T extends (...args: unknown[]) => unknown>(
   func: T,
   wait: number
 ): (...args: Parameters<T>) => void {
