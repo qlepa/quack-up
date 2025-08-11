@@ -1,5 +1,5 @@
 export const APP_CONFIG = {
-  name: 'Quack Up',
+  name: 'Quack Up Buddy?',
   description: 'AI Companion for meaningful conversations',
   version: '1.0.0',
 } as const;

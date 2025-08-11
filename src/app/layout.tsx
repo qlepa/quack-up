@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quack Up - AI Companion",
+  title: "Quack Up Buddy? - AI Companion",
   description: "Choose your AI companion and start meaningful conversations",
 };
 
